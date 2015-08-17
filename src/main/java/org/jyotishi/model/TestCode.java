@@ -63,11 +63,11 @@ public class TestCode {
 				SweConst.SE_MERCURY,
 				SweConst.SE_JUPITER,
 				SweConst.SE_VENUS,
-				SweConst.SE_SATURN,
-				SweConst.SE_TRUE_NODE,
+				SweConst.SE_SATURN,				
 				SweConst.SE_NEPTUNE,
 				SweConst.SE_PLUTO,
-				SweConst.SE_URANUS};	// Some systems prefer SE_MEAN_NODE
+				SweConst.SE_URANUS,
+				SweConst.SE_TRUE_NODE};	// Some systems prefer SE_MEAN_NODE
 
 		flags = SweConst.SEFLG_SWIEPH |		// fastest method, requires data files
 				SweConst.SEFLG_SIDEREAL |	// sidereal zodiac
